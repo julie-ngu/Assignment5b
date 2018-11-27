@@ -51,7 +51,7 @@ public class NumericPatternSymmetric {
 				output = nextOuput + num + nextOuput;
 			}
 			else {
-				//if the number is greater than 5, do the same thing from if statement, except add a new line before the next recursion
+				//if the number is greater than 5, do the same thing from if statement, except add a new line before the next recursion (new line after each int greater than 5)
 				output = nextOuput + num + "\n" + nextOuput;
 			}
 			//return output after if-else
