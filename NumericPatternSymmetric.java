@@ -29,7 +29,7 @@ public class NumericPatternSymmetric {
 		String output = "";
 		String nextOuput;
 		
-		if(num > 15 || num < 1) {
+		if(num >= 15 || num < 1) {
 			// error
 			output = "Error";
 			return output;
@@ -40,7 +40,7 @@ public class NumericPatternSymmetric {
 			return output;
 		}
 		else {
-			// for numbers greater than one
+			// for numbers greater than one but less or equal to 15
 			nextOuput = symmetricPattern(num - 1);
 			if(num <= 5) {
 				output = nextOuput + num + nextOuput;
