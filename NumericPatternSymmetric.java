@@ -24,10 +24,6 @@ public class NumericPatternSymmetric {
 		}
 	}
 	
-	public static String mnemoicsList(int num) {
-		String output= "";
-		return output;
-	}
 	public static String symmetricPattern(int num) {
 		// method that produces a symmetric pattern about n where each half before and after n is also symmetric around n-1
 		String output = "";
